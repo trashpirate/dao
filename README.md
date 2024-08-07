@@ -11,7 +11,7 @@
 
 
 ## About
-Project Description
+Mimimal set of smart contracts to demonstrate the functioning of a DAO (Decentralized Autonomous Organizaiton)
 1. Smart contract completely controlled by DAO
 2. Every transaction the DAO wants to send needs to be voted on.
 3. ERC20 tokens are used for voting
@@ -40,21 +40,6 @@ ETHERSCAN_KEY=<api key>
 ```bash
 $ forge test
 ```
-
-### Deploy contract on testnet
-```bash
-$ make deploy-testnet
-```
-
-### Deploy contract on mainnet
-```bash
-$ make deploy-mainnet
-```
-
-## Deployments
-
-### Testnet
-### Mainnet
 
 ## Author
 
