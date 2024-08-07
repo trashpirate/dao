@@ -7,8 +7,8 @@ import {ERC20Votes} from "@openzeppelin/contracts/token/ERC20/extensions/ERC20Vo
 import {ERC20Burnable} from "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import {Nonces} from "@openzeppelin/contracts/utils/Nonces.sol";
 
-contract MyToken is ERC20, ERC20Burnable, ERC20Permit, ERC20Votes {
-    constructor() ERC20("MyToken", "MTK") ERC20Permit("MyToken") {}
+contract GovToken is ERC20, ERC20Burnable, ERC20Permit, ERC20Votes {
+    constructor() ERC20("GovToken", "GTK") ERC20Permit("GovToken") {}
 
     function mint(address to, uint256 amount) public {
         _mint(to, amount);
